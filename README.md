@@ -44,6 +44,21 @@
 
 ---
 
+## Dataset Details & Classes
+
+학습에 사용된 데이터셋의 입력 규격 및 탐지 대상 클래스(레이블) 정보는 다음과 같습니다. 통합 모델은 아래의 모든 사전/메인 공정의 정상 및 결함 상태를 한 번에 분류하고 탐지합니다.
+
+* **Input Image Size:** `512 x 512 x 3` (RGB)
+
+### 🏷️ Class Labels (Inspection Types)
+
+| 공정 (Process) | 판정 상태 (Status) | 검사 항목 / 불량 유형 (Defect Types) |
+| :--- | :---: | :--- |
+| **사전 공정** | **정상 (Normal)**<br>**불량 (Defect)** | 1. 미납<br>2. 납부족<br>3. 납쇼트<br>4. 납볼<br>5. 납좌표 밀림<br>6. 납형성 불량 |
+| **메인(납땜) 공정** | **정상 (Normal)**<br>**불량 (Defect)** | 1. 미납<br>2. 냉납<br>3. 밀림<br>4. 쇼트<br>5. 오삽<br>6. 미삽<br>7. 역삽<br>8. 뒤집힘<br>9. 일어섬<br>10. 납볼<br>11. 납금감, 핀홀<br>12. 납고드름 |
+
+---
+
 ## Environment & Usage
 
 ### Dependencies
