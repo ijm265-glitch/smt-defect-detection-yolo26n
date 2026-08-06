@@ -84,10 +84,10 @@ rendered_frame = results[0].plot()
 
 ## Data Source & Acknowledgement
 
-- **Dataset Name:** 18. SMT 공정 개선 멀티모달 데이터
+- **Dataset Name:** SMT 공정 개선 멀티모달 데이터
 - **Source:** [AI-Hub (aihub.or.kr)](https://aihub.or.kr)
 
-* 본 프로젝트는 과학기술정보통신부의 재원으로 한국지능정보사회진흥원의 지원을 받아 구축된 "18. SMT 공정 개선 멀티모달 데이터"를 활용하여 수행되었습니다.
+* 본 프로젝트는 과학기술정보통신부의 재원으로 한국지능정보사회진흥원의 지원을 받아 구축된 "SMT 공정 개선 멀티모달 데이터"를 활용하여 수행되었습니다.
 * This project was developed using datasets from 'The Open AI Dataset Project (AI-Hub, S. Korea)'. All data information can be accessed through AI-Hub.
 * **Model Deployment Note:** AI허브 이용약관에 따라, 해당 데이터셋으로 학습되어 생성된 AI 모델 및 관련 서비스는 자유로운 배포 및 활용이 가능합니다.
 * In accordance with AI-Hub terms of use, AI models and services trained on this dataset can be freely deployed and utilized.
